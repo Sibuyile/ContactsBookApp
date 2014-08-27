@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffbbbbbb">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="DISPLAY DETAILS"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/d_cell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/editText" />
+
+        <TextView
+            android:id="@+id/d_lname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:id="@+id/editText2" />
+
+        <Button
+            android:id="@+id/btnView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/details"
+            android:layout_gravity="center_horizontal" />
+
+
+
+        <LinearLayout android:id="@+id/detail_view"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="302dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:text="@string/fname"/>
+
+            <TextView
+                android:id="@+id/d_fname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email"/>
+
+            <TextView
+                android:id="@+id/d_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address"/>
+
+            <TextView
+                android:id="@+id/d_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
